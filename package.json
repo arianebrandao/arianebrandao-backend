@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.0.5",
+    "@strapi/plugin-i18n": "4.0.5",
+    "@strapi/plugin-users-permissions": "4.0.5",
+    "@strapi/provider-upload-cloudinary": "^4.0.5",
+    "@strapi/strapi": "4.0.5",
+    "lodash.set": "^4.3.2",
+    "mime-types": "^2.1.27",
+    "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "5.0.2"
+  },
+  "name": "strapi-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application for my blog",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "author": {
+    "name": "Ariane Brandão"
+  },
+  "strapi": {
+    "uuid": "6c785d02-d9e5-440e-8df9-a4d41d317dd4",
+    "template": "@strapi/template-blog@^1.0.0",
+    "starter": "@strapi/starter-next-blog"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
