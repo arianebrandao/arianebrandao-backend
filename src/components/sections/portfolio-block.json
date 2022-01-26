@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_portfolio_blocks",
+  "info": {
+    "displayName": "PortfolioBlock",
+    "icon": "brain"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
